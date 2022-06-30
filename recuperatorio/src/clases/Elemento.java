@@ -18,7 +18,10 @@ public abstract class Elemento {
 	
 	public abstract double getValor();
 	public abstract int getAntig();
-	public abstract int getMonto();
+	
+	//Alquiler
+	public abstract double getMontoAlquiler();
+	
 	
 	@Override
 	public boolean equals(Object o) {

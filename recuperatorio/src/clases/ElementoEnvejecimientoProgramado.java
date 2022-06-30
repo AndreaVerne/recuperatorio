@@ -37,7 +37,7 @@ public class ElementoEnvejecimientoProgramado extends Elemento {
 	}
 
 	@Override
-	public int getMonto() {
+	public double getMontoAlquiler() {
 		return 0;
 	}
 

@@ -48,8 +48,11 @@ public class Paquete extends Elemento{
 	}
 
 	@Override
-	public int getMonto() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double getMontoAlquiler() {
+		double suma = 0.0;
+		for (int i = 0; i < elems.size(); i++) {
+			suma += elems.get(i).getMontoAlquiler();
+		}
+		return suma;
 	}
 }
